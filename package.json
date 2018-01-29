@@ -1,0 +1,33 @@
+{
+  "name": "tips",
+  "version": "1.0.0",
+  "description": "我会在这里总结自己遇到的问题以及解决方案。",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xqlsq/tips.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xqlsq/tips/issues"
+  },
+  "homepage": "https://github.com/xqlsq/tips#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.18",
+    "eslint": "^4.16.0",
+    "express": "^4.16.2",
+    "html-webpack-plugin": "^2.30.1",
+    "open-browser-webpack-plugin": "^0.0.5",
+    "process.args": "^0.0.6",
+    "webpack": "^3.10.0",
+    "webpack-dev-middleware": "^2.0.4",
+    "webpack-dev-server": "^2.11.1",
+    "webpack-hot-middleware": "^2.21.0"
+  }
+}
