@@ -4,7 +4,7 @@
 
 ## JS
 
-1. [task(macrotask) 和 microtask]('./JS/microtask/')
+1. [task(macrotask) 和 microtask](/JS/microtask/)
 
 ## HTML
 
