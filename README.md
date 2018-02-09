@@ -11,6 +11,7 @@
 ## JS
 
 1. [task(macrotask) 和 microtask](/JS/microtask/)
+2. [父子组件生命周期顺序](/JS/ReactLifeStyleSequence/)
 
 ## HTML
 
