@@ -15,9 +15,7 @@ compinentWillUnmount
 ```
 
 如图：
-![]('./167AD70E-617B-4BAC-AAD6-DBDD459C01A4.png')
-
-![引用文章图]('https://www.jianshu.com/p/4784216b8194')
+![lifestyle](./lifestyle.png)
 
 ## 运行
 
