@@ -5,5 +5,5 @@ console.log(4);
 
 // 必须要写
 if (module.hot) {
-	module.hot.accept();
+    module.hot.accept();
 }

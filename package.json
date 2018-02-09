@@ -19,8 +19,19 @@
   },
   "homepage": "https://github.com/xqlsq/tips#readme",
   "devDependencies": {
+    "antd": "^3.2.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
     "clean-webpack-plugin": "^0.1.18",
     "eslint": "^4.16.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-react": "^7.6.1",
     "express": "^4.16.2",
     "html-webpack-plugin": "^2.30.1",
     "open-browser-webpack-plugin": "^0.0.5",
@@ -29,5 +40,9 @@
     "webpack-dev-middleware": "^2.0.4",
     "webpack-dev-server": "^2.11.1",
     "webpack-hot-middleware": "^2.21.0"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   }
 }

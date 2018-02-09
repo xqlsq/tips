@@ -1,17 +1,22 @@
 {
     "env": {
       "node": true,
+      "browser": true,
        "es6": true
     },
+    "parser": "babel-eslint",
+    "extends": [
+        "plugin:react/recommended"
+    ],
     "rules": {
         "no-undef": 2,
         "semi": 2,
         "strict": 0,
         "quotes": 0,
-        "indent": ["error", "tab"],
+        "indent": ["error", 4],
         "curly": [2, "multi-line"],
         "no-use-before-define": [2, "nofunc"],
-        "no-unused-vars": [2, "all"],
+        "no-unused-vars": [2, "local"],
         "no-mixed-requires": [2, true],
         "max-depth": [2, 5],
         "max-len": [2, 80, 4],

@@ -58,6 +58,14 @@ whatwg规范：https://html.spec.whatwg.org/multipage/webappapis.html#task-queue
 - microtask queue 中的 task 会在事件循环的当前回合中执行，因此 macrotask queue 中的 task 就只能等到事件循环的下一个回合中执行了
 - click ajax setTimeout 的回调是都是 task, 同时，包裹在一个 script 标签中的js代码也是一个 task 确切说是 macrotask。
 
+## 个人理解
+
+浏览器进程主要分为 js线程、GUI线程（渲染layout、rendering、paint）、event线程；
+1、js线程执行主任务macrotask
+2、macrotask结束，查询当前队列中的microtask，如果有，js线程执行
+3、如果以上操作有涉及dom的rendering 或者layout，GUI线程执行paint
+4、event线程收集注册的事件，适时放入js线程开始执行
+
 ## 引用
 > https://github.com/ccforward/cc/issues/47
 
