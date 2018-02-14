@@ -13,17 +13,17 @@ const complier = webpack(webpackConfig);
 
 
 let devMiddleware = webpackDevMiddleware(complier, {
-	watchOptions: {
-		aggregateTimeout: 300,
-		poll: true
-	},watch: true,
-	publicPath: webpackConfig.output.publicPath,
-	log: false, // 向控制台显示任何内容 
+    watchOptions: {
+        aggregateTimeout: 300,
+        poll: true
+    },watch: true,
+    publicPath: webpackConfig.output.publicPath,
+    log: false, // 向控制台显示任何内容 
 });
 
 let hotMiddleware = webpackHotMiddleware(complier,{
-	log: false,
-	heartbeat: 2000
+    log: false,
+    heartbeat: 2000
 });
 app.use(devMiddleware);
 
@@ -34,5 +34,5 @@ app.use(hotMiddleware);
 app.use(express.static(DIST_DIR));
 
 app.listen(PORT,function(){
-	console.log("成功启动：localhost:"+ PORT);
+    console.log("成功启动：localhost:"+ PORT);
 });

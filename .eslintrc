@@ -19,7 +19,7 @@
         "no-unused-vars": [2, "local"],
         "no-mixed-requires": [2, true],
         "max-depth": [2, 5],
-        "max-len": [2, 80, 4],
+        "max-len": [2, 180, 4],
         "max-params": [2, 6],
         "max-statements": [2, 20],
         "eqeqeq": 0,
