@@ -15,6 +15,7 @@
 3. [Object.is](/JS/Object.is/)
 3. [字符串-RegExp](/JS/RegExp/)
 4. [数组去重](/JS/ArrayUnique)
+5. [JS浮点数运算后的精度问题](/JS/Precision)
 
 ## HTML
 
