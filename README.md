@@ -14,6 +14,7 @@
 2. [父子组件生命周期顺序](/JS/ReactLifeStyleSequence/)
 3. [Object.is](/JS/Object.is/)
 3. [字符串-RegExp](/JS/RegExp/)
+4. [数组去重](/JS/ArrayUnique)
 
 ## HTML
 
